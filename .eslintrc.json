@@ -1,0 +1,20 @@
+// Setup based on https://github.com/standard/eslint-config-standard-with-typescript
+{
+	"root": true,
+	"extends": "standard-with-typescript",
+	"parserOptions": { "project": "./tsconfig.json" },
+	"rules": {
+		"complexity": "error",
+		"max-depth": "error",
+		"max-len": [ "error", { "code": 120, "ignoreUrls": true } ],
+		"no-console": "error",
+		// no-shadow rule must be disabled as it can report incorrect errors
+		// see https://github.com/typescript-eslint/typescript-eslint/blob/v4.8.1/packages/eslint-plugin/docs/rules/no-shadow.md
+		"no-shadow": "off",
+		"@typescript-eslint/no-shadow": [ "error", { "builtinGlobals": true } ],
+		"no-var": "error",
+		"prefer-rest-params": "error",
+		"prefer-spread": "error",
+		"strict": "error"
+	}
+}
