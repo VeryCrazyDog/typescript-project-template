@@ -17,5 +17,10 @@
 		"moduleResolution": "Node",
 		// Advanced
 		"forceConsistentCasingInFileNames": true
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
 	}
 }
