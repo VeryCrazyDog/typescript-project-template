@@ -7,20 +7,14 @@
 		// Project options
 		"declaration": true,
 		"lib": [ "ES2020" ],
-		"module": "ES2020",
+		"module": "CommonJS",
 		"outDir": "./dist",
 		"rootDir": "./src",
 		"sourceMap": true,
 		"target": "ES2020",
 		// Module resolution
 		"esModuleInterop": true,
-		"moduleResolution": "Node",
 		// Advanced
 		"forceConsistentCasingInFileNames": true
-	},
-	"ts-node": {
-		"compilerOptions": {
-			"module": "CommonJS"
-		}
 	}
 }
