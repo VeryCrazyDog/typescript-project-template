@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- Update dependencies version
 
 ## [1.2.0] - 2021-02-10
 ### Changed
@@ -13,7 +15,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [1.1.0] - 2020-12-23
 ### Added
-- Added lint rule no-param-reassign, which is used in TypeScript Cloud Function project created by Firebase CLI.
+- Added lint rule `no-param-reassign`, which is used in TypeScript Cloud Function project created by Firebase CLI.
 
 ## [1.0.0] - 2020-11-21
 ### Added

@@ -12,13 +12,13 @@
 		"@typescript-eslint/eslint-plugin": "4.x",
 		"ava": "3.x",
 		"eslint": "7.x",
-		"eslint-config-standard-with-typescript": "19.x",
+		"eslint-config-standard-with-typescript": "20.x",
 		"eslint-plugin-import": "2.x",
 		"eslint-plugin-node": "11.x",
 		"eslint-plugin-promise": "4.x",
 		"eslint-plugin-standard": "4.x",
 		"ts-node": "9.x",
-		"typescript": "4.x"
+		"typescript": "4.1.x"
 	},
 	"scripts": {
 		"lint": "eslint *.cjs . || cd .",
