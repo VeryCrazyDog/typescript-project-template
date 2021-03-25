@@ -8,6 +8,9 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 ### Changed
 - Update dependencies version
 
+### Fixed
+- Fix incorrect `ignorePatterns` in `.eslintrc.json` to relative path.
+
 ## [1.2.0] - 2021-02-10
 ### Changed
 - Move ignore files in `.eslintignore` to `.eslintrc.json`.
