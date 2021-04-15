@@ -6,7 +6,8 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Changed
-- Update dependencies version
+- Test case must now be suffix with `.test.ts`.
+- Update dependencies version.
 
 ### Fixed
 - Fix incorrect `ignorePatterns` in `.eslintrc.json` to relative path.
