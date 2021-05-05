@@ -9,8 +9,13 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - Test case must now be suffix with `.test.ts`.
 - Update dependencies version.
 
+### Removed
+- Lint rules `prefer-rest-params` and `prefer-spread` as that only matter style.
+- Lint rule `strict` as it doesn't seems to make sense in TypeScript.
+
 ### Fixed
 - Fix incorrect `ignorePatterns` in `.eslintrc.json` to relative path.
+- Missing lint rule `no-shadow`.
 
 ## [1.2.0] - 2021-02-10
 ### Changed
