@@ -12,6 +12,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 ### Removed
 - Lint rules `prefer-rest-params` and `prefer-spread` as that only matter style.
 - Lint rule `strict` as it doesn't seems to make sense in TypeScript.
+- `.eslintignore` from `.npmignore` as we no longer use `.eslintignore`.
 
 ### Fixed
 - Fix incorrect `ignorePatterns` in `.eslintrc.json` to relative path.
