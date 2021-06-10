@@ -9,6 +9,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - Test case must now be suffix with `.test.ts`.
 - Update dependencies version.
 - Dependencies now use caret `^` instead of `.x` to preserve the version used in template.
+- Use stricter version of engines specification.
 
 ### Removed
 - Lint rules `prefer-rest-params` and `prefer-spread` as that only matter style.
