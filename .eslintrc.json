@@ -13,5 +13,13 @@
 		"no-param-reassign": "error",
 		"no-shadow": "off",
 		"no-var": "error"
-	}
+	},
+	"overrides": [
+		{
+			"files": [ "src/test/**/*.test.ts" ],
+			"rules": {
+				"@typescript-eslint/no-non-null-assertion": "off"
+			}
+		}
+	]
 }
