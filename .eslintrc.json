@@ -21,7 +21,8 @@
 		"prefer-spread": "error",
 		// Coding style rules, can be removed based on personal preference
 		"@typescript-eslint/consistent-type-imports": "error",
-		"import/order": "error"
+		"import/order": "error",
+		"sort-imports": [ "error", { "ignoreDeclarationSort": true } ]
 	},
 	"overrides": [
 		{
