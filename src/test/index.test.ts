@@ -1,4 +1,5 @@
-import anyTest, { TestInterface } from 'ava'
+import type { TestInterface } from 'ava'
+import anyTest from 'ava'
 
 import { add } from '../index'
 

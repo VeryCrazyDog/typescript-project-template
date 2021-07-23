@@ -6,7 +6,12 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Added
-- Add lint rule `import/order`.
+- Added lint rule `no-alert` to avoid unintended behavior.
+- Lint rules `prefer-rest-params` and `prefer-spread` are added back, as it is easier
+  for user to remove unwanted rules.
+- Added the following coding style lint rules:
+	- `@typescript-eslint/consistent-type-imports`
+	- `import/order`
 
 ### Changed
 - Allow non null assertion in test case files.
@@ -24,7 +29,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - Removed `.eslintignore` from `.npmignore` as we no longer use `.eslintignore`.
 
 ### Fixed
-- Fix incorrect `ignorePatterns` in `.eslintrc.json` to relative path.
+- Fixed incorrect `ignorePatterns` in `.eslintrc.json` to relative path.
 - Missing lint rule `no-shadow`.
 
 ## [1.2.0] - 2021-02-10
