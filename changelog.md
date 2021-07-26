@@ -11,6 +11,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
   for user to remove unwanted rules.
 - Added the following coding style lint rules:
 	- `@typescript-eslint/consistent-type-imports`
+	- `import/no-default-export`
 	- `import/order`
 	- `sort-imports`
 

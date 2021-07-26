@@ -21,6 +21,7 @@
 		"prefer-spread": "error",
 		// Coding style rules, can be removed based on personal preference
 		"@typescript-eslint/consistent-type-imports": "error",
+		"import/no-default-export": "error",
 		"import/order": [ "error", {
 			"groups": [ "builtin", "external", "parent", "sibling", "index", "object", "type" ],
 			"newlines-between": "always"
