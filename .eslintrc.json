@@ -22,10 +22,7 @@
 		// Coding style rules, can be removed based on personal preference
 		"@typescript-eslint/consistent-type-imports": "error",
 		"import/no-default-export": "error",
-		"import/order": [ "error", {
-			"groups": [ "builtin", "external", "parent", "sibling", "index", "object", "type" ],
-			"newlines-between": "always"
-		} ],
+		"import/order": [ "error", { "newlines-between": "always" } ],
 		"sort-imports": [ "error", { "ignoreDeclarationSort": true } ]
 	},
 	"overrides": [
