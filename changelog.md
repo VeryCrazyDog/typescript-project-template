@@ -16,7 +16,8 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 	- `sort-imports`
 
 ### Changed
-- Allow non null assertion in test case files.
+- Allow non-null assertion in test case files.
+- Updated template to use latest LTS Node.js 16.
 
 ## [1.3.0] - 2021-06-11
 ### Changed
