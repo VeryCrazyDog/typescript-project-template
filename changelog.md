@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [2.0.0] - 2021-11-17
 ### Added
 - Added lint rule `no-alert` to avoid unintended behavior.
 - Lint rules `prefer-rest-params` and `prefer-spread` are added back, as it is easier
@@ -17,13 +19,13 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ### Changed
 - Allow non-null assertion in test case files.
-- Updated template to use latest LTS Node.js 16.
+- Updated template to use latest LTS Node.js 16 and npm 8.
 
 ## [1.3.0] - 2021-06-11
 ### Changed
 - Test case must now be suffix with `.test.ts`.
 - Update dependencies version.
-- Dependencies now use caret `^` instead of `.x` to preserve the version used in template.
+- Dependencies now use caret `^` instead of `.x` to preserve the exact version used in template.
 - Use stricter version of engines specification.
 
 ### Removed
@@ -42,7 +44,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [1.1.0] - 2020-12-23
 ### Added
-- Added lint rule `no-param-reassign`, which is used in TypeScript Cloud Function project created by Firebase CLI.
+- Added lint rule `no-param-reassign`, which is used in TypeScript Cloud Functions project created by Firebase CLI.
 
 ## [1.0.0] - 2020-11-21
 ### Added
@@ -50,7 +52,8 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 
 
-[Unreleased]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.3.0...HEAD
+[Unreleased]: https://github.com/VeryCrazyDog/typescript-project-template/compare/2.0.0...HEAD
+[2.0.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.3.0...2.0.0
 [1.3.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.0.0...1.1.0
