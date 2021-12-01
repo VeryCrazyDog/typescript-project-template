@@ -2,19 +2,20 @@
 	// TSConfig reference: https://www.typescriptlang.org/tsconfig
 	// Configured based on https://stackoverflow.com/a/67371788/1131246
 	"compilerOptions": {
-		// Strict checks
+		// Type checking options
 		"strict": true,
-		// Project options
-		"declaration": true,
-		"lib": [ "ES2021" ],
+		// Modules options
 		"module": "CommonJS",
-		"outDir": "dist",
 		"rootDir": "src",
+		// Emit options
+		"declaration": true,
+		"outDir": "dist",
 		"sourceMap": true,
-		"target": "ES2021",
-		// Module resolution
+		// Interop constraints options
 		"esModuleInterop": true,
-		// Advanced
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		// Language and environment options
+		"lib": [ "ES2021" ],
+		"target": "ES2021"
 	}
 }
