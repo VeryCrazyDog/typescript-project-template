@@ -6,6 +6,10 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.1] - 2021-12-01
+### Fixed
+- Fix `tsconfig.json` not updated for Node.js 16.
+
 ## [2.0.0] - 2021-11-17
 ### Added
 - Added lint rule `no-alert` to avoid unintended behavior.
