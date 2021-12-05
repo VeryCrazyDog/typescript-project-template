@@ -1,7 +1,7 @@
 import type { TestInterface } from 'ava'
 import anyTest from 'ava'
 
-import { add } from '../index'
+import { add } from '../src/index'
 
 interface TestContext {
   // Added for the purpose of demonstration
