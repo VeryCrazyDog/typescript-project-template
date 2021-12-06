@@ -1,5 +1,5 @@
 # typescript-project-template
-TypeScript Node.js project template. Updated for Node.js 14.
+TypeScript Node.js project template. Updated for Node.js 16.
 
 As a template, license is internally set to private but feel free to use this template as your new project starter.
 
