@@ -14,6 +14,8 @@
 		"forceConsistentCasingInFileNames": true,
 		// Language and environment options
 		"lib": [ "ES2021" ],
-		"target": "ES2021"
+		"target": "ES2021",
+		// Completeness options
+		"skipLibCheck": true
 	}
 }
