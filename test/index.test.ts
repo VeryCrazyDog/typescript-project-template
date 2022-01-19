@@ -1,4 +1,4 @@
-import type { TestInterface } from 'ava'
+import type { TestFn } from 'ava'
 import anyTest from 'ava'
 
 import { add } from '../src/index'
@@ -8,7 +8,7 @@ interface TestContext {
   previousResult: number
 }
 
-const test = anyTest as TestInterface<TestContext>
+const test = anyTest as TestFn<TestContext>
 
 test('should produce correct add result', t => {
   const addResult = add(1, 2)
