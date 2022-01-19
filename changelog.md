@@ -11,6 +11,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - Source code for testing is now separated from application source code using TypeScript project reference.
 - Removed ignore of return code for lint and lint fix, as npm v8 no longer prompt error on error exit.
 - Update dependencies version.
+- Update `.gitignore`.
 
 ## [2.0.2] - 2021-12-06
 ### Fixed
