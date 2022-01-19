@@ -8,6 +8,8 @@ Base on project type, the following amendment on the project files can be consid
 
 For all projects:
 1. Review lint rules in `.eslintrc.json` and remove unwanted lint rules.
+2. If no test will be implemented, consider adding flag `--no-error-on-unmatched-pattern` to `eslint`
+   in npm scripts `lint` and `fix` to avoid error due to unmatched pattern.
 
 For application projects:
 1. In `tsconfig.json`, option `compilerOptions.declaration` can consider to be removed.
