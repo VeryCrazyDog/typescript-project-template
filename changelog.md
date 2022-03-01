@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [3.0.0] - 2022-03-01
 ### Added
 - Set `skipLibCheck` to `true` in `tsconfig-base.json` as it is the default value when running `tsc --init`.
 ### Changed
@@ -12,8 +14,6 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - Removed ignore of return code for lint and lint fix, as npm v8 no longer prompt error on error exit.
 - Update dependencies version.
 - Update `.gitignore`.
-### Fixed
-- Set missing `rootDir` in `src/tsconfig.json` which is present in version 1.x.
 
 ## [2.0.2] - 2021-12-06
 ### Fixed
@@ -69,7 +69,10 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 
 
-[Unreleased]: https://github.com/VeryCrazyDog/typescript-project-template/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/VeryCrazyDog/typescript-project-template/compare/3.0.0...HEAD
+[3.0.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/2.0.2...3.0.0
+[2.0.2]: https://github.com/VeryCrazyDog/typescript-project-template/compare/2.0.1...2.0.2
+[2.0.1]: https://github.com/VeryCrazyDog/typescript-project-template/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.3.0...2.0.0
 [1.3.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.1.0...1.2.0
