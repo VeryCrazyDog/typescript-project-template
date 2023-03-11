@@ -8,6 +8,8 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 ### Added
 - Set `declarationMap` to `true` in `tsconfig-base.json` for [library source code navigation in a monorpeo].
 ### Changed
+- Engine versions now use caret `^` instead of `.x` to preserve the exact version used in template.
+- Updated template to use latest LTS Node.js 18 and npm 9.
 - Update dependencies version.
 
 ## [3.0.0] - 2022-03-01

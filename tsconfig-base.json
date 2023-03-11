@@ -1,6 +1,6 @@
 {
 	// TSConfig reference: https://www.typescriptlang.org/tsconfig
-	// Configured based on https://stackoverflow.com/a/67371788/1131246
+	// Configured based on https://stackoverflow.com/a/72380008
 	"compilerOptions": {
 		// Type checking options
 		"strict": true,
@@ -14,8 +14,8 @@
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		// Language and environment options
-		"lib": [ "ES2021" ],
-		"target": "ES2021",
+		"lib": [ "ES2022" ],
+		"target": "ES2022",
 		// Completeness options
 		"skipLibCheck": true
 	}
