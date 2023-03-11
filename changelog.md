@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Set `declarationMap` to `true` in `tsconfig-base.json` for [library source code navigation in a monorpeo].
 ### Changed
 - Update dependencies version.
 
@@ -80,3 +82,4 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 [1.2.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/VeryCrazyDog/typescript-project-template/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/VeryCrazyDog/typescript-project-template/releases/tag/1.0.0
+[library source code navigation in a monorpeo]: https://stackoverflow.com/questions/54459847/vscode-lerna-typescript-monorepo-code-navigation

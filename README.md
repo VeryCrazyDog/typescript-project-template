@@ -12,9 +12,16 @@ For all projects:
    in npm scripts `lint` and `fix` to avoid error due to unmatched pattern.
 
 For application projects:
-1. In `tsconfig-base.json`, option `compilerOptions.declaration` can consider to be removed.
+1. In `tsconfig-base.json`, the following options can consider to be removed.
+   - `compilerOptions.declaration`
+   - `compilerOptions.declarationMap`
 2. In `package.json`, NPM script `scripts.prepack` can consider to be removed.
 3. File `.npmignore` can consider to be removed.
 
-For library projects:
+For library projects intended for publish:
+1. In `tsconfig-base.json`, the following options can consider to be removed.
+   - `compilerOptions.declaration`
+   - `compilerOptions.declarationMap`
+
+For library projects within a monorepo:
 1. In `tsconfig-base.json`, option `compilerOptions.sourceMap` can consider to be removed.
