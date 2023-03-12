@@ -8,13 +8,13 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 ### Added
 - Set `declarationMap` to `true` in `tsconfig-base.json` for [library source code navigation in a monorpeo].
 - Set `declaratioremoveCommentsnMap` to `true` in `tsconfig-base.json`.
-### Removed
-- Deprecated npm script `fix`, use `lint` instead.
 ### Changed
 - npm script `lint` now also automatically fix source code problems.
 - Engine versions now use caret `^` instead of `.x` to preserve the exact version used in template.
 - Updated template to use latest LTS Node.js 18 and npm 9.
 - Update dependencies version.
+### Removed
+- Deprecated npm script `fix`, use `lint` instead.
 ### Fixed
 - Avoid `tsc --build test` generate output next to `.ts` source code.
 
