@@ -6,6 +6,7 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Added
+- Remove `dist` directory before build using `rimraf`.
 - Set `declarationMap` to `true` in `tsconfig-base.json` for [library source code navigation in a monorpeo].
 - Set `declaratioremoveCommentsnMap` to `true` in `tsconfig-base.json`.
 ### Changed
