@@ -1,4 +1,5 @@
 {
 	// Configured based on https://stackoverflow.com/questions/51631786/how-to-use-project-references-in-typescript-3-0
+	// `references` options was not set because `composite` was not enabled on application source code.
 	"extends": "../tsconfig-base.json"
 }

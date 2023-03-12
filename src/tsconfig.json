@@ -1,5 +1,6 @@
 {
 	// Configured based on https://stackoverflow.com/questions/51631786/how-to-use-project-references-in-typescript-3-0
+	// `composite` options was not enabled to allow us disalbing `declaration` options for application projects.
 	"extends": "../tsconfig-base.json",
 	"compilerOptions": {
 		// Modules options
