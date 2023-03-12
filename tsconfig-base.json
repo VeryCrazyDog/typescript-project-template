@@ -9,6 +9,7 @@
 		// Emit options
 		"declaration": true,
 		"declarationMap": true,
+		"removeComments": true,
 		"sourceMap": true,
 		// Interop constraints options
 		"esModuleInterop": true,
