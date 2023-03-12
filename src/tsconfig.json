@@ -3,8 +3,6 @@
 	"extends": "../tsconfig-base.json",
 	"compilerOptions": {
 		// Modules options
-		"rootDir": ".",
-		// Emit options
-		"outDir": "../dist"
+		"rootDir": "."
 	}
 }

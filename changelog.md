@@ -15,6 +15,8 @@ and this module adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - Engine versions now use caret `^` instead of `.x` to preserve the exact version used in template.
 - Updated template to use latest LTS Node.js 18 and npm 9.
 - Update dependencies version.
+### Fixed
+- Avoid `tsc --build test` generate output next to `.ts` source code.
 
 ## [3.0.0] - 2022-03-01
 ### Added
