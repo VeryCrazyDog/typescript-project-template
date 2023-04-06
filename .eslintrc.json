@@ -1,7 +1,8 @@
 // Setup based on https://github.com/standard/eslint-config-standard-with-typescript
 {
 	"root": true,
-	"extends": "standard-with-typescript",
+	"extends": ["standard-with-typescript"],
+	"ignorePatterns": ["**/*", "!*.cjs"],
 	"rules": {
 		// Rules to avoid potential bugs and unintended behavior
 		"@typescript-eslint/no-shadow": [ "error", { "builtinGlobals": true } ],

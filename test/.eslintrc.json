@@ -1,4 +1,6 @@
 {
+	"extends": ["../.eslintrc.json"],
+	"ignorePatterns": ["!**/*"],
 	"parserOptions": { "project": "test/tsconfig.json" },
 	"rules": {
 		"@typescript-eslint/no-non-null-assertion": "off"
